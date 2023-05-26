@@ -11,7 +11,31 @@
     <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
-
+<div id="home-navbar-responsive-container" class="home-navbar-responsive-container">
+    <ul class="home-responsive-navbar-ul">
+        <li class="home-responsive-navbar-chatgpt-item active">
+            <a href="#" class="home-navbar-chatgpt">
+                <img src="static/images/chatgpt-icon.svg" alt="">
+                <span>چت جی پی تی</span>
+            </a>
+        </li>
+        <li><a href="#">
+            <i class="fa-brands fa-youtube"></i>
+            <span>دوره ها</span>
+        </a></li>
+        <li><a href="#">
+            <i class="fa-solid fa-headphones-simple"></i>
+            <span>پادکست ها</span>
+        </a></li>
+        <li><a href="#">
+            <i class="fa-solid fa-user"></i>
+            <span>حساب کاربری</span>
+        </a></li>
+<!--        <li class="home-responsive-navbar-close">-->
+<!--            <label for="checkbox_toggle"><i class="fa-solid fa-xmark"></i></label>-->
+<!--        </li>-->
+    </ul>
+</div>
 <header>
     <div class="header-image-container">
         <nav class="home-navbar-container">
@@ -36,24 +60,8 @@
                     <li><a href="#">سوالات متداول</a></li>
                     <li><a href="#">آموزش وب سایت</a></li>
                 </ul>
-                <input type="checkbox" id="checkbox_toggle"/>
-                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-                <div class="home-navbar-responsive-container">
-                    <ul class="home-responsive-navbar-ul">
-                        <li class="home-navbar-chatgpt-item">
-                            <a href="#" class="home-navbar-chatgpt conic">
-                                <img src="static/images/chatgpt-icon.svg" alt="">
-                            </a>
-                        </li>
-                        <li><a href="#">محصولات</a></li>
-                        <li><a href="#">پادکست ها</a></li>
-                        <li><a href="#">سوالات متداول</a></li>
-                        <li><a href="#">آموزش وب سایت</a></li>
-                        <li class="home-responsive-navbar-close">
-                            <label for="checkbox_toggle"><i class="fa-solid fa-xmark"></i></label>
-                        </li>
-                    </ul>
-                </div>
+<!--                <input type="checkbox" id="checkbox_toggle"/>-->
+<!--                <label for="checkbox_toggle" class="hamburger">&#9776;</label>-->
                 <div class="home-login-container">
                     <div class="home-login-button">
                         <i class="fa-solid fa-user"></i>
@@ -657,7 +665,6 @@
         تمامی حقوق این وبسایت متعلق به سایت منتور میباشد
     </div>
 </footer>
-<!--<script src="static/js/swiper-bundle.min.js"></script>-->
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
 
 <script src="static/js/script.js"></script>

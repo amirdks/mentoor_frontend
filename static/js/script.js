@@ -34,3 +34,17 @@ function mobileScreenChanger(tabletScreen) {
 let mobileScreen = window.matchMedia("(max-width: 424px)")
 mobileScreenChanger(mobileScreen) // Call listener function at run time
 mobileScreen.addListener(mobileScreenChanger)
+
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function () {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+        document.getElementById("home-navbar-responsive-container").style.bottom = "0";
+        console.log("avali play shod")
+    } else {
+        document.getElementById("home-navbar-responsive-container").style.bottom = "-100px";
+        console.log("dovomi play shod")
+    }
+    prevScrollpos = currentScrollPos;
+}
