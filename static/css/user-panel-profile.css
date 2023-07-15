@@ -1,0 +1,217 @@
+.user-panel-profile-container {
+    background-color: #1a1e1f;
+    margin-top: 35px;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0px 0px 23px -15px #3450a1;
+}
+
+.user-panel-profile-background {
+    height: 200px;
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    /*height: 100%;*/
+    background: linear-gradient(16deg, rgba(43, 134, 197, 0.9401961468181023) 0%, rgba(145, 75, 160, 0.9261905445772058) 88%, rgba(255, 60, 172, 0.6040616930365896) 100%);
+}
+
+.user-panel-profile-image {
+    position: absolute;
+    top: 140px;
+    right: 5%;
+    width: 120px;
+    height: 120px;
+    border: 4px solid var(--special-color-2);
+    border-radius: 50%;
+}
+
+.user-panel-profile-section {
+    width: 90%;
+    margin: 80px auto 0;
+    padding: 20px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.user-profile-content-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.user-profile-description {
+    margin: 0;
+}
+
+.user-profile-description-section {
+    width: 50%;
+}
+
+.user-profile-description-title {
+    font-size: 1.3rem;
+    padding: 10px 0;
+    border-bottom: 1px solid #6a6868;
+    margin: 20px 0;
+}
+
+.user-profile-description-title-first {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+.user-profile-description-text {
+    line-height: 1.5rem;
+    opacity: .7;
+    font-size: .9rem;
+}
+
+.user-profile-skill-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.user-profile-skill-item {
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 5px;
+    opacity: .8;
+    border: 1px solid #444;
+    background-color: #222;
+}
+
+.user-profile-username {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.user-profile-phone-number {
+    opacity: .8;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    margin: 10px 0;
+}
+
+.user-profile-info-section {
+    margin: 20px 0;
+}
+
+.user-profile-phone-number i {
+    font-size: .9rem;
+}
+
+.user-profile-phone-number span {
+    font-size: .9rem;
+    margin-right: 10px;
+}
+
+.user-profile-phone-btn-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-profile-phone-btn {
+    padding: 10px 20px;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s;
+    font-size: 1.1rem;
+}
+
+.edit-profile-btn {
+    border: 2px solid var(--special-color);
+}
+
+.edit-profile-btn:hover {
+    background-color: var(--special-color);
+}
+
+.edit-password-btn {
+    border: 2px solid var(--light-color);
+}
+
+.edit-password-btn:hover {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+.user-panel-purchase-products-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+.user-panel-purchase-products-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.user-panel-purchase-products-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 25px 0;
+}
+.user-panel-purchase-products-item{
+    width: calc(33% - 30px);
+    margin: 15px;
+}
+
+
+@media only screen and (max-width: 1023px) {
+
+}
+
+@media only screen and (max-width: 500px) {
+    html{
+        font-size: 80%;
+    }
+    .user-panel-profile-background{
+        height: 150px;
+    }
+    .user-panel-profile-image{
+        top: 100px;
+        width: 80px;
+        height: 80px;
+    }
+    .user-panel-profile-section{
+        margin: 40px auto;
+        flex-wrap: wrap;
+    }
+    .user-profile-content-section{
+        width: 100%;
+    }
+    .user-profile-info-section{
+        margin: 10px 0;
+    }
+    .user-profile-phone-btn-section{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .user-profile-phone-btn{
+        padding: 5px 0;
+        width: 60%;
+        margin: 5px auto;
+        font-size: 1rem;
+    }
+    .user-profile-description-section{
+        width: 100%;
+        margin-top: 25px;
+    }
+    .user-profile-description-title{
+        padding: 5px 0;
+        margin: 10px 0;
+        font-size: 1.2rem;
+    }
+}

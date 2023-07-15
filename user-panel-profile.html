@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="static/js/fontawesome.js" crossorigin="anonymous"></script>
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="static/css/user-panel.css">
+    <link rel="stylesheet" href="static/css/user-panel-profile.css">
+</head>
+<body>
+
+<div class="sidebar-close" id="user-panel-main-container">
+    <aside id="user-panel-sidebar">
+        <a id="user-panel-sidebar-toggle">
+            <i class="fa-solid fa-angle-right"></i>
+        </a>
+        <div class="user-panel-sidebar-section">
+            <a href="/" class="user-panel-sidebar-header-container">
+                <div class="user-panel-sidebar-header-section">
+                    <img src="static/images/output-onlinepngtools.png" alt="">
+                    <span>Mentoor</span>
+                </div>
+            </a>
+            <div class="user-panel-sidebar-navigation-section">
+                <i class="fa-solid fa-chevron-right"></i>
+                <span></span>
+            </div>
+            <div class="user-panel-sidebar-list-container">
+                <a class="active-sidebar-item" href="#">
+                    <i class="fa-solid fa-home"></i>
+                    <span>خانه</span>
+                </a>
+                <a menu-target="#wallet" class="#" href="#">
+                    <i class="fa-solid fa-user"></i>
+                    <span>حساب کاربری</span>
+                    <i class="fa-solid fa-caret-left"></i>
+                </a>
+            </div>
+            <div id="wallet" class="user-panel-sidebar-list-container user-panel-sidebar-sub-list">
+                <a href="#">
+                    <i class="fa-solid fa-universal-access"></i>
+                    <span>نمایش پروفایل</span>
+                </a>
+                <a class="#" href="#">
+                    <i class="fa-solid fa-wallet"></i>
+                    <span>تستیییه</span>
+                </a>
+            </div>
+            <div class="sidebar-play-list-container">
+                <div class="sidebar-play-list-title">
+                    <div class="sidebar-play-list-title-text">
+                        پلی لیست پادکست
+                    </div>
+                    <div menu-target="#playlist" playlist="" class="sidebar-play-list-title-all">
+                        دیدن همه
+                        <span style="display: none">پلی لیست ها</span>
+                    </div>
+                </div>
+                <div class="sidebar-play-list-section">
+                    <a href="#" class="sidebar-play-list-item">
+                        <img src="static/images/icons8-playlist-100.png" alt="playlist icon">
+                        <div class="sidebar-play-list-item-content">
+                            <div class="sidebar-play-list-item-title">
+                                فاکینگ دلیه
+                            </div>
+                            <div class="sidebar-play-list-item-count">
+                                22 پادکست
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div id="playlist" class="sidebar-play-list-section">
+                    <a href="#" class="sidebar-play-list-item">
+                        <img src="static/images/icons8-playlist-100.png" alt="playlist icon">
+                        <div class="sidebar-play-list-item-content">
+                            <div class="sidebar-play-list-item-title">
+                                فاکینگ دلیه
+                            </div>
+                            <div class="sidebar-play-list-item-count">
+                                22 پادکست
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <a href="#" class="user-panel-sidebar-logout-section">
+                <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                <span>خروج از حساب</span>
+            </a>
+        </div>
+    </aside>
+
+    <article id="user-panel-content">
+        <section id="user-panel-section">
+            <div class="user-panel-profile-container">
+                <div class="user-panel-profile-background"></div>
+                <img src="static/images/Untitled-4.png" alt="user profile image" class="user-panel-profile-image">
+                <div class="user-panel-profile-section">
+                    <div class="user-profile-content-section">
+                        <div class="user-profile-username">
+                            امیرحسین دانشی کهن
+                        </div>
+                        <div class="user-profile-info-section">
+                            <div title="شماره تلفن" class="user-profile-phone-number">
+                                <i class="fa-solid fa-phone-flip"></i>
+                                <span>09302483540</span>
+                            </div>
+                            <div title="نام کاربری" class="user-profile-phone-number">
+                                <i class="fa-solid fa-user"></i>
+                                <span>amirdk</span>
+                            </div>
+                        </div>
+                        <div class="user-profile-phone-btn-section">
+                            <a href="#" class="user-profile-phone-btn edit-profile-btn">تغییر اطلاعات کاربری</a>
+                            <a href="#" class="user-profile-phone-btn edit-password-btn">تغییر رمز عبور</a>
+                        </div>
+                    </div>
+                    <div class="user-profile-description-section">
+                        <div class="user-profile-description">
+                            <div class="user-profile-description-title user-profile-description-title-first">
+                                درباره شما
+                            </div>
+                            <div class="user-profile-description-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quae sed ullam.
+                                Accusantium aliquam aperiam aut, cum cupiditate enim error iste modi nobis optio
+                                perferendis
+                                praesentium repellendus rerum similique, veniam veritatis voluptatibus! Culpa cumque
+                                distinctio
+                                dolorem doloribus facilis. Doloremque, perspiciatis.
+                            </div>
+                        </div>
+                        <div class="user-profile-description">
+                            <div class="user-profile-description-title">
+                                مهارت ها
+                            </div>
+                            <div class="user-profile-skill-section">
+                                <div class="user-profile-skill-item">
+                                    Djano
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="user-panel-profile-container">
+                <div class="user-panel-purchase-products-container">
+                    <div class="user-panel-purchase-products-title">
+                        دوره های خریداری شده من
+                    </div>
+                    <div class="user-panel-purchase-products-section">
+                        <div class="user-panel-purchase-products-item">
+                            product Item
+                        </div>
+                        <div class="user-panel-purchase-products-item">
+                            product Item
+                        </div>
+                        <div class="user-panel-purchase-products-item">
+                            product Item
+                        </div>
+                        <div class="user-panel-purchase-products-item">
+                            product Item
+                        </div>
+                        <div class="user-panel-purchase-products-item">
+                            product Item
+                        </div>
+                        <div class="user-panel-purchase-products-item">
+                            product Item
+                        </div>
+                        <div class="user-panel-purchase-products-item">
+                            product Item
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+</div>
+
+<script src="static/js/user-panel.js"></script>
+</body>
+</html>
